@@ -85,7 +85,9 @@ main {
 }
 
 .box {
-    width: 50%;
+    min-width: 375px;
+    max-width: 50%;
+
     height: 50%;
     position: relative;
     border-radius: 20px;
