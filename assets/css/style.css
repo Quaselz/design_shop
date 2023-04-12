@@ -22,6 +22,7 @@ html {
 
 img {
     max-width: 100%;
+    transition: 0.2s all;
 }
 
 p {
@@ -89,11 +90,14 @@ nav div a {
     transition: 1s;
 }
 
-[class|="container"] article a:hover > img {
+[class|="container"] article a img:hover {
     text-decoration: none;
     filter: opacity(50%);
 }
 
+[class|="container"] article div:first-of-type {
+    background-color: #f3f3f3;
+}
 [class|="container"] article > div {
     margin-bottom: var(--space-out);
 }
