@@ -98,6 +98,7 @@ nav div a {
 [class|="container"] article > div:first-of-type {
     background-color: #f3f3f3;
 }
+
 [class|="container"] article > div {
     margin-bottom: var(--space-out);
 }
